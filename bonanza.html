@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Layout Bonanza</title>
+<link rel="stylesheet" type="text/css" href="bonanza_style.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" ></script>
+<div id="container">
+<header>
+	<h1><strong>LOREM IPSUM</strong></h1>
+</header>
+</head>
+<body>
+	<div id="contentBox">
+    	<div class="square"></div><div class="square"></div><div class="square"></div><div class="square"></div><div class="square"></div><div class="square"></div><div class="square"></div><div class="square"></div><div class="square"></div>
+	</div>
+<script>
+$(document).ready(function(){
+	$(".square").click(function(){
+		$(this).addClass("clickedSquare");
+		if($(".clickedSquare").size() === $(".square").size()){
+			alert("You've won!");
+		}
+});
+});
+
+
+</script>
+</body>
+</div>
+<footer>
+</footer>
+

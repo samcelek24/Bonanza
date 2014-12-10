@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+	box-sizing:border-box;
+}
+#container{
+	align:center;
+	margin-top:-20px;
+	/*margin-top: 2.4rem;*/
+	/*display: block;*/
+	margin-left: auto;
+	margin-right: auto;
+	max-width:1200px;
+}
+header{
+	background:#8F8E8E;
+	width:100%;
+}
+h1{
+	padding-top:130px;
+	padding-left:20px;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size:50px;
+}
+/*#contentBox >div{
+	display:inline-block;
+	height:100px;
+	background:#8A8888;
+	width:31.33%;
+	border: 1px solid #000000;
+	margin:1%;*/
+
+footer{
+	background:#8F8E8E;
+	height:100px;
+	margin-left:0;
+	margin-right:0;
+}
+.square{
+	background:#D71013;
+	display:inline-block;
+	height:100px;
+	width:31.33%;
+	border: 1px solid #000000;
+	margin:1%;
+}
+.clickedSquare{
+	background:#000CE6;
+	display:inline-block;
+	height:100px;
+	width:31.33%;
+	border: 1px solid #000000;
+	margin:1%;
+}
+
+
+
